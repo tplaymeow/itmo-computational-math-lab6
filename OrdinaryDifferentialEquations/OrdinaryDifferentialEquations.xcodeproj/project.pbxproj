@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207CE4292A05A2F800C7FA8B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4282A05A2F800C7FA8B /* App.swift */; };
+		207CE42B2A05A2F800C7FA8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE42A2A05A2F800C7FA8B /* ContentView.swift */; };
+		207CE42D2A05A2FA00C7FA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207CE42C2A05A2FA00C7FA8B /* Assets.xcassets */; };
+		207CE4302A05A2FA00C7FA8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207CE42F2A05A2FA00C7FA8B /* Preview Assets.xcassets */; };
+		207CE43B2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE43A2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.swift */; };
+		207CE4452A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4442A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.swift */; };
+		207CE4472A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4462A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITestsLaunchTests.swift */; };
+		207CE4582A05AF6F00C7FA8B /* EulerMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4572A05AF6F00C7FA8B /* EulerMethod.swift */; };
+		207CE45A2A05B2E900C7FA8B /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4592A05B2E900C7FA8B /* Function.swift */; };
+		207CE45C2A05B31000C7FA8B /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE45B2A05B31000C7FA8B /* Interval.swift */; };
+		207CE45E2A05B42900C7FA8B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE45D2A05B42900C7FA8B /* Point.swift */; };
+		207CE4632A079B1300C7FA8B /* MethodInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4622A079B1300C7FA8B /* MethodInput.swift */; };
+		207CE4672A079D5900C7FA8B /* ModifiedEulerMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4662A079D5900C7FA8B /* ModifiedEulerMethod.swift */; };
+		207CE4692A07A20400C7FA8B /* RungeKuttaMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE4682A07A20400C7FA8B /* RungeKuttaMethod.swift */; };
+		207CE46B2A07B37A00C7FA8B /* MilneMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE46A2A07B37A00C7FA8B /* MilneMethod.swift */; };
+		207CE46E2A07CD0900C7FA8B /* Collection+Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CE46D2A07CD0900C7FA8B /* Collection+Back.swift */; };
+		20C0DB472A07F63F006BE176 /* RungeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0DB462A07F63F006BE176 /* RungeRule.swift */; };
+		20C0DB4B2A07FDDA006BE176 /* FunctionVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0DB4A2A07FDDA006BE176 /* FunctionVariant.swift */; };
+		20C0DB4D2A080AFF006BE176 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0DB4C2A080AFF006BE176 /* Zip.swift */; };
+		20C8CB172A09A81B006A9EDF /* SelfIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C8CB162A09A81B006A9EDF /* SelfIdentifiable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207CE4372A05A2FA00C7FA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207CE41D2A05A2F800C7FA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207CE4242A05A2F800C7FA8B;
+			remoteInfo = OrdinaryDifferentialEquations;
+		};
+		207CE4412A05A2FA00C7FA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207CE41D2A05A2F800C7FA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207CE4242A05A2F800C7FA8B;
+			remoteInfo = OrdinaryDifferentialEquations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207CE4252A05A2F800C7FA8B /* OrdinaryDifferentialEquations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrdinaryDifferentialEquations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207CE4282A05A2F800C7FA8B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		207CE42A2A05A2F800C7FA8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		207CE42C2A05A2FA00C7FA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207CE42F2A05A2FA00C7FA8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		207CE4312A05A2FA00C7FA8B /* OrdinaryDifferentialEquations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrdinaryDifferentialEquations.entitlements; sourceTree = "<group>"; };
+		207CE4362A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrdinaryDifferentialEquationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207CE43A2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinaryDifferentialEquationsTests.swift; sourceTree = "<group>"; };
+		207CE4402A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrdinaryDifferentialEquationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207CE4442A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinaryDifferentialEquationsUITests.swift; sourceTree = "<group>"; };
+		207CE4462A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinaryDifferentialEquationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		207CE4572A05AF6F00C7FA8B /* EulerMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerMethod.swift; sourceTree = "<group>"; };
+		207CE4592A05B2E900C7FA8B /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		207CE45B2A05B31000C7FA8B /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		207CE45D2A05B42900C7FA8B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		207CE4622A079B1300C7FA8B /* MethodInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodInput.swift; sourceTree = "<group>"; };
+		207CE4662A079D5900C7FA8B /* ModifiedEulerMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedEulerMethod.swift; sourceTree = "<group>"; };
+		207CE4682A07A20400C7FA8B /* RungeKuttaMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RungeKuttaMethod.swift; sourceTree = "<group>"; };
+		207CE46A2A07B37A00C7FA8B /* MilneMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilneMethod.swift; sourceTree = "<group>"; };
+		207CE46D2A07CD0900C7FA8B /* Collection+Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Back.swift"; sourceTree = "<group>"; };
+		20C0DB462A07F63F006BE176 /* RungeRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RungeRule.swift; sourceTree = "<group>"; };
+		20C0DB4A2A07FDDA006BE176 /* FunctionVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionVariant.swift; sourceTree = "<group>"; };
+		20C0DB4C2A080AFF006BE176 /* Zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
+		20C8CB162A09A81B006A9EDF /* SelfIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIdentifiable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207CE4222A05A2F800C7FA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE4332A05A2FA00C7FA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE43D2A05A2FA00C7FA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207CE41C2A05A2F800C7FA8B = {
+			isa = PBXGroup;
+			children = (
+				207CE4272A05A2F800C7FA8B /* OrdinaryDifferentialEquations */,
+				207CE4392A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests */,
+				207CE4432A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests */,
+				207CE4262A05A2F800C7FA8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		207CE4262A05A2F800C7FA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				207CE4252A05A2F800C7FA8B /* OrdinaryDifferentialEquations.app */,
+				207CE4362A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.xctest */,
+				207CE4402A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207CE4272A05A2F800C7FA8B /* OrdinaryDifferentialEquations */ = {
+			isa = PBXGroup;
+			children = (
+				207CE46C2A07CCEA00C7FA8B /* Utils */,
+				207CE4542A05A32400C7FA8B /* Core */,
+				207CE4532A05A31A00C7FA8B /* Presentation */,
+				207CE4282A05A2F800C7FA8B /* App.swift */,
+				207CE42C2A05A2FA00C7FA8B /* Assets.xcassets */,
+				207CE4312A05A2FA00C7FA8B /* OrdinaryDifferentialEquations.entitlements */,
+				207CE42E2A05A2FA00C7FA8B /* Preview Content */,
+			);
+			path = OrdinaryDifferentialEquations;
+			sourceTree = "<group>";
+		};
+		207CE42E2A05A2FA00C7FA8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				207CE42F2A05A2FA00C7FA8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		207CE4392A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				207CE43A2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.swift */,
+			);
+			path = OrdinaryDifferentialEquationsTests;
+			sourceTree = "<group>";
+		};
+		207CE4432A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				207CE4442A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.swift */,
+				207CE4462A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITestsLaunchTests.swift */,
+			);
+			path = OrdinaryDifferentialEquationsUITests;
+			sourceTree = "<group>";
+		};
+		207CE4532A05A31A00C7FA8B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				207CE42A2A05A2F800C7FA8B /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		207CE4542A05A32400C7FA8B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				20C0DB492A07FDC2006BE176 /* RungeRule */,
+				20C0DB482A07FDB4006BE176 /* Methods */,
+				207CE45F2A05B43E00C7FA8B /* Models */,
+				20C0DB4A2A07FDDA006BE176 /* FunctionVariant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		207CE45F2A05B43E00C7FA8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				207CE45B2A05B31000C7FA8B /* Interval.swift */,
+				207CE4592A05B2E900C7FA8B /* Function.swift */,
+				207CE45D2A05B42900C7FA8B /* Point.swift */,
+				207CE4622A079B1300C7FA8B /* MethodInput.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		207CE46C2A07CCEA00C7FA8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				207CE46D2A07CD0900C7FA8B /* Collection+Back.swift */,
+				20C0DB4C2A080AFF006BE176 /* Zip.swift */,
+				20C8CB162A09A81B006A9EDF /* SelfIdentifiable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		20C0DB482A07FDB4006BE176 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				207CE46A2A07B37A00C7FA8B /* MilneMethod.swift */,
+				207CE4682A07A20400C7FA8B /* RungeKuttaMethod.swift */,
+				207CE4662A079D5900C7FA8B /* ModifiedEulerMethod.swift */,
+				207CE4572A05AF6F00C7FA8B /* EulerMethod.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		20C0DB492A07FDC2006BE176 /* RungeRule */ = {
+			isa = PBXGroup;
+			children = (
+				20C0DB462A07F63F006BE176 /* RungeRule.swift */,
+			);
+			path = RungeRule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207CE4242A05A2F800C7FA8B /* OrdinaryDifferentialEquations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207CE44A2A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquations" */;
+			buildPhases = (
+				207CE4212A05A2F800C7FA8B /* Sources */,
+				207CE4222A05A2F800C7FA8B /* Frameworks */,
+				207CE4232A05A2F800C7FA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrdinaryDifferentialEquations;
+			productName = OrdinaryDifferentialEquations;
+			productReference = 207CE4252A05A2F800C7FA8B /* OrdinaryDifferentialEquations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		207CE4352A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207CE44D2A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquationsTests" */;
+			buildPhases = (
+				207CE4322A05A2FA00C7FA8B /* Sources */,
+				207CE4332A05A2FA00C7FA8B /* Frameworks */,
+				207CE4342A05A2FA00C7FA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207CE4382A05A2FA00C7FA8B /* PBXTargetDependency */,
+			);
+			name = OrdinaryDifferentialEquationsTests;
+			productName = OrdinaryDifferentialEquationsTests;
+			productReference = 207CE4362A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207CE43F2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207CE4502A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquationsUITests" */;
+			buildPhases = (
+				207CE43C2A05A2FA00C7FA8B /* Sources */,
+				207CE43D2A05A2FA00C7FA8B /* Frameworks */,
+				207CE43E2A05A2FA00C7FA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207CE4422A05A2FA00C7FA8B /* PBXTargetDependency */,
+			);
+			name = OrdinaryDifferentialEquationsUITests;
+			productName = OrdinaryDifferentialEquationsUITests;
+			productReference = 207CE4402A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207CE41D2A05A2F800C7FA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					207CE4242A05A2F800C7FA8B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					207CE4352A05A2FA00C7FA8B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 207CE4242A05A2F800C7FA8B;
+					};
+					207CE43F2A05A2FA00C7FA8B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 207CE4242A05A2F800C7FA8B;
+					};
+				};
+			};
+			buildConfigurationList = 207CE4202A05A2F800C7FA8B /* Build configuration list for PBXProject "OrdinaryDifferentialEquations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207CE41C2A05A2F800C7FA8B;
+			productRefGroup = 207CE4262A05A2F800C7FA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207CE4242A05A2F800C7FA8B /* OrdinaryDifferentialEquations */,
+				207CE4352A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests */,
+				207CE43F2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207CE4232A05A2F800C7FA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207CE4302A05A2FA00C7FA8B /* Preview Assets.xcassets in Resources */,
+				207CE42D2A05A2FA00C7FA8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE4342A05A2FA00C7FA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE43E2A05A2FA00C7FA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207CE4212A05A2F800C7FA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C0DB4B2A07FDDA006BE176 /* FunctionVariant.swift in Sources */,
+				207CE45C2A05B31000C7FA8B /* Interval.swift in Sources */,
+				207CE4582A05AF6F00C7FA8B /* EulerMethod.swift in Sources */,
+				207CE45E2A05B42900C7FA8B /* Point.swift in Sources */,
+				207CE42B2A05A2F800C7FA8B /* ContentView.swift in Sources */,
+				207CE46E2A07CD0900C7FA8B /* Collection+Back.swift in Sources */,
+				207CE46B2A07B37A00C7FA8B /* MilneMethod.swift in Sources */,
+				207CE4692A07A20400C7FA8B /* RungeKuttaMethod.swift in Sources */,
+				20C8CB172A09A81B006A9EDF /* SelfIdentifiable.swift in Sources */,
+				20C0DB472A07F63F006BE176 /* RungeRule.swift in Sources */,
+				207CE4672A079D5900C7FA8B /* ModifiedEulerMethod.swift in Sources */,
+				207CE4632A079B1300C7FA8B /* MethodInput.swift in Sources */,
+				20C0DB4D2A080AFF006BE176 /* Zip.swift in Sources */,
+				207CE4292A05A2F800C7FA8B /* App.swift in Sources */,
+				207CE45A2A05B2E900C7FA8B /* Function.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE4322A05A2FA00C7FA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207CE43B2A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207CE43C2A05A2FA00C7FA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207CE4452A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITests.swift in Sources */,
+				207CE4472A05A2FA00C7FA8B /* OrdinaryDifferentialEquationsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207CE4382A05A2FA00C7FA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207CE4242A05A2F800C7FA8B /* OrdinaryDifferentialEquations */;
+			targetProxy = 207CE4372A05A2FA00C7FA8B /* PBXContainerItemProxy */;
+		};
+		207CE4422A05A2FA00C7FA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207CE4242A05A2F800C7FA8B /* OrdinaryDifferentialEquations */;
+			targetProxy = 207CE4412A05A2FA00C7FA8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		207CE4482A05A2FA00C7FA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207CE4492A05A2FA00C7FA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		207CE44B2A05A2FA00C7FA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrdinaryDifferentialEquations/OrdinaryDifferentialEquations.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrdinaryDifferentialEquations/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		207CE44C2A05A2FA00C7FA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrdinaryDifferentialEquations/OrdinaryDifferentialEquations.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrdinaryDifferentialEquations/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		207CE44E2A05A2FA00C7FA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrdinaryDifferentialEquations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrdinaryDifferentialEquations";
+			};
+			name = Debug;
+		};
+		207CE44F2A05A2FA00C7FA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrdinaryDifferentialEquations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrdinaryDifferentialEquations";
+			};
+			name = Release;
+		};
+		207CE4512A05A2FA00C7FA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OrdinaryDifferentialEquations;
+			};
+			name = Debug;
+		};
+		207CE4522A05A2FA00C7FA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.OrdinaryDifferentialEquationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OrdinaryDifferentialEquations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207CE4202A05A2F800C7FA8B /* Build configuration list for PBXProject "OrdinaryDifferentialEquations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207CE4482A05A2FA00C7FA8B /* Debug */,
+				207CE4492A05A2FA00C7FA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207CE44A2A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207CE44B2A05A2FA00C7FA8B /* Debug */,
+				207CE44C2A05A2FA00C7FA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207CE44D2A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207CE44E2A05A2FA00C7FA8B /* Debug */,
+				207CE44F2A05A2FA00C7FA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207CE4502A05A2FA00C7FA8B /* Build configuration list for PBXNativeTarget "OrdinaryDifferentialEquationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207CE4512A05A2FA00C7FA8B /* Debug */,
+				207CE4522A05A2FA00C7FA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207CE41D2A05A2F800C7FA8B /* Project object */;
+}
